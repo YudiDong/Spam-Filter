@@ -18,6 +18,9 @@ start_time1 = time.time()
 
 ham = glob.glob('training_data/ham/*/*')
 
+
+##########
+
 words_pr_ham = {}
 for item in ham:
     mail = open(item).read()
